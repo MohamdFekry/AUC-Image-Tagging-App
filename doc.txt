@@ -1,0 +1,30 @@
+For pydrive, must add account into trusted testing users from oauth consentscreen
+https://console.cloud.google.com/apis/credentials?project=celtic-volt-395714
+5th responce here: https://stackoverflow.com/questions/24419188/automating-pydrive-verification-process
+
+pip install pyqt5, timm
+pip install openpyxl
+
+--onefile 
+pyinstaller --name "AUC Image Tagging" ^
+--icon icon.ico ^
+--add-data="client_secrets.json;." ^
+--add-data="credentials.json;." ^
+--add-data="imagenet_classes.txt;." ^
+--add-data="icon.ico;." ^
+--add-data="doc.txt;." ^
+--add-data="pic.png;img" ^
+--add-data="cspnet.py;." ^
+--add-data="inception_v4.py;." ^
+--add-data="settings.yaml;." ^
+-w test.py
+
+pyinstaller exam_browser.py --onefile -F --icon logo.ico
+
+packaging:
+documentation: 1- install python3 and it to path, install visual C++ redist; give links
+               2- how to install: modules, needed files(creds, auc.png, ...)
+               3- how to use: put photos and copy from help button
+               4- emails: links for models any pyqt and drive api
+
+presentation: timeline, documentation: 02.00 - 03.30 Sunday
