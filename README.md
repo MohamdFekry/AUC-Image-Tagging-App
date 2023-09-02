@@ -23,7 +23,7 @@ To run our app, you first need to install some dependencies. Just follow the ste
 ![image](https://user-images.githubusercontent.com/78408934/187026498-236c9638-511d-4b8e-9f22-eb15c60b5c07.png)
 
 ## How to run & use <a name="runuse"></a>
-To run the app, simply double-click on the ImageTag.py file.
+To run the app, simply double-click on the AUC Image Tagging.exe file inside your installation folder.
 
 ### User Guide
 To make the most of the "AUC Image Tagging App," follow these steps:
