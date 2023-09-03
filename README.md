@@ -12,15 +12,15 @@ Hi everyone! Welcome to the "AUC Image Tagging App." This app has been developed
 
 ## How to install <a name="install"></a>
 To run our app, you first need to install some dependencies. Just follow the steps below, and everything should run smoothly.
-1. Install python3 from: [https://www.python.org/downloads/](https://www.python.org/downloads/).
-2. Download the code as a zip and then unzip it.
-3. Go to the directory where the code was saved.
-4. Right-click and click on the "Run in Terminal" option. If you do not find this option, open the command prompt and type `cd` followed by the directory in which the file was downloaded.
-![image](https://user-images.githubusercontent.com/78408934/187026405-b51781b7-e9ea-4fd3-b5cf-6f99db5ab736.png)
-5. Type `pip install -r Requirements.txt` in the terminal.
-6. Copy and paste the contents of "Run.txt" into the terminal.
-7. Ctrl + click on the outputed link, which will take you to the website.
-![image](https://user-images.githubusercontent.com/78408934/187026498-236c9638-511d-4b8e-9f22-eb15c60b5c07.png)
+1. Install python3 from: https://www.python.org/downloads/.
+2. Add python to PATH on Windows by following this quick tutorial: [https://realpython.com/add-python-to-path/](https://realpython.com/add-python-to-path/#:~:text=across%20operating%20systems.-,How%20to%20Add%20Python%20to%20PATH%20on%20Windows,-The%20first%20step)
+3. Install Microsoft Visual C++ Redistributable from: https://aka.ms/vs/17/release/vc_redist.x64.exe.
+4. Hold Windows button, then press R to open the Run window. Type cmd.exe and hit OK.
+5. The cmd window will open. Copy and paste the following command into the cmd window and hit Enter to begin installing the Python dependecies:
+     pip install pyqt5 timm torch pil pydrive pandas numpy openpyxl googletrans==3.1.0a0
+6. Go to the Drive folder:  and download the installer file called "AUC Image Tagging.exe" and run it to install it the app.
+7. After installation, open the installtion directory and run the app by double-clicking on the "AUC Image Tagging" icon.
+8. There's also a shortcut for the app that you can modify its path to open the app directly from it.
 
 ## How to run & use <a name="runuse"></a>
 To run the app, simply double-click on the AUC Image Tagging.exe file inside your installation folder.
