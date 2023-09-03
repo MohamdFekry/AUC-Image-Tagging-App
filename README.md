@@ -55,7 +55,7 @@ The "AUC Image Tagging App" leverages a variety of cutting-edge technologies to 
 
 4. CSP ResNet: A convolutional neural network where we apply the Cross Stage Partial Network (CSPNet) approach to ResNet. The CSPNet partitions the feature map of the base layer into two parts and then merges them through a cross-stage hierarchy. The use of a split and merge strategy allows for more gradient flow through the network.
 
-5. Google Drive and Google Drive API.
+5. Google Drive and Google Cloud (Google Drive API).
 
 ## Research and Additional Notes <a name="research"></a>
 ### Research Efforts
