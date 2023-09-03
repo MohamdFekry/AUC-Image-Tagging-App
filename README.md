@@ -71,6 +71,3 @@ During our research and development process, we explored various approaches and 
 
 ### Data Considerations
 It's essential to note that we did not have access to the specific library images during our model training process. Instead, we trained the models on large sets of random images. If you find that the models require improvements for better and more accurate tagging, we recommend retraining them using the library's tagged photos for optimal results.
-
-## Additional Notes
-...
